@@ -2,7 +2,7 @@ import 'bootstrap';
 
 export class App {
     configureRouter(config, router){
-        config.title = 'Astigma Productions Ltd';
+        config.title = 'Josh Tummel | Astigma Productions Ltd';
         config.options.pushState = true; // Removes /#/ from routes
         config.map([
             {route: ['','home'], name: 'home', moduleId: 'home/home', nav: true, title:'Home'},

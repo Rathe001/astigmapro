@@ -9,6 +9,7 @@ gulp.task('serve', ['build'], function(done) {
     browserSync({
         open: false,
         port: 9000,
+        notify: false,
         server: {
             baseDir: ['.'],
             middleware: [historyApiFallback(), function (req, res, next) { // it's the first one in the array

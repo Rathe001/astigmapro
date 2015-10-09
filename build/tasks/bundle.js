@@ -10,7 +10,7 @@ var config = {
         '*',
         '*.html!text',
         '*.css!text',
-        'bootstrap/css/bootstrap.css!text'
+        //'bootstrap/css/bootstrap.css!text'
       ],
       options: {
         inject: true,
